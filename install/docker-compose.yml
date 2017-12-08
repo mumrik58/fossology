@@ -59,7 +59,7 @@ services:
     user: fossy
     command: web
     ports:
-      - 8081:8081
+      - 8081:80
     links:
       - fossology-db
       - fossology-scheduler
